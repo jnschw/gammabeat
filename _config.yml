@@ -10,12 +10,12 @@ permalink:        pretty
 title:            gammabeat
 tagline:          'My R projects'
 description:      'A private collection of R projects.'
-url:              http://192.168.1.120
+url:              https://jnschw.github.io/gammabeat
 baseurl:          /
 
 author:
   name:           'Jürgen Schwarz'
-  url:            https://athome.net
+  url:            https://jnschw.github.io/gammabeat
 
 gems:             [jekyll-paginate]
 paginate:         5
