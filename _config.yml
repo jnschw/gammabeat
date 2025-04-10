@@ -1,0 +1,57 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            gammabeat
+tagline:          'My R projects'
+description:      'A private collection of R projects.'
+url:              http://192.168.1.120
+baseurl:          /
+
+author:
+  name:           'Jürgen Schwarz'
+  url:            https://athome.net
+
+gems:             [jekyll-paginate]
+paginate:         5
+paginate_path:    'page:num/'
+
+# Custom vars
+version:          0.2.1
+
+piwik:
+  base_url: piwik.cherhome.net
+  site_id: 1
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
