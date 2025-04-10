@@ -19,7 +19,7 @@ analyze spatio-temporal patterns.
 <!-- more -->
 
 A review on applications of modern statistical pyhsics in crime analytics 
-by D'Orsogna and Perc {% cite DOrsogna2015 %} attracted my interest on 
+by D'Orsogna and Perc attracted my interest on 
 **spatial point pattern analysis**. Mathematically, point pattern analysis is 
 the evaluation of the distribution of a set of points on a certain surface. 
 The underlying point process is a probabilistic model for random scatterings 
@@ -33,8 +33,7 @@ values, indicating whether or not an event occurs at that time.
 As the figure nicely shows, the distribution of crime is not random in time 
 and space. Environmental, economic, political and sociological factors 
 contribute to areas with different occurences and characteristics of crimes. 
-Typical spatio-temporal crime pattens are discussed by 
-{% cite LeongSung2015 %} or {% cite GrubbNobles2016 %}. A major spatial 
+A major spatial 
 pattern is a _hotspot_, i.e. a spatially focused area with high crime rates. 
 The use of hotspot maps is a common practice in visualizing the spatial 
 distribution of crime events. These maps highlight areas with high 
@@ -64,7 +63,7 @@ found in many domains from seismology, computational neuroscience, finance,
 to social networks and criminology. As a typical application one would like 
 to predict discrete events in time and space from the occurrence of past 
 event series. Crime can be understood as such a self-exciting point process 
-{% cite Mohler2011 %} since every crime event may also trigger offspring 
+since every crime event may also trigger offspring 
 events around the parent event. This leads to a dynamics of spatio-temporal 
 crime patterns like birth and death of hotspots. The feature of excitability 
 in point processes shows an interesting analogy with neural networks in 
@@ -73,8 +72,3 @@ behavior. Burst firing is a phenomenon where periods of rapid spike trains
 are interrupted by quescient phases. 
 
 
-
-References
-----------
-
-{% bibliography --cited %}
