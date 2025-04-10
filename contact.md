@@ -12,7 +12,7 @@ Germany
 <h3>Contact:</h3>
 <table><tr>
 <td>Telefon:</td>
-<td>+49 (0) 7159 420 77 05</td></tr>
+<td>+49 (0) </td></tr>
 <tr><td>E-Mail:</td>
 <td>jn-schwarz@arcor.de</td>
 </tr></table>
