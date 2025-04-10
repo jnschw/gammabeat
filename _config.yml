@@ -22,11 +22,7 @@ paginate:         5
 paginate_path:    'page:num/'
 
 # Custom vars
-version:          0.2.1
-
-piwik:
-  base_url: piwik.cherhome.net
-  site_id: 1
+version:          0.2.2
 
 scholar:
   style: apa
